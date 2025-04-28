@@ -1,5 +1,5 @@
 server:
-  port: 8761  # Puerto estándar para Eureka Server
+  port: 8761  # Puerto estï¿½ndar para Eureka Server
 
 spring:
   application:
@@ -9,8 +9,8 @@ eureka:
   instance:
     hostname: localhost
   client:
-    register-with-eureka: false  # No se registra a sí mismo
+    register-with-eureka: false
     fetch-registry: false        # No intenta obtener el registro
   server:
-    enable-self-preservation: false  # Desactiva la auto-preservación en desarrollo
+    enable-self-preservation: false
     eviction-interval-timer-in-ms: 5000  # Intervalo para eliminar instancias inactivas
